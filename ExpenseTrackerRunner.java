@@ -15,9 +15,12 @@ public class ExpenseTrackerRunner {
 				// this is not good because other people and external sources can modify our JFrameOne code
 				// which is not what we want
 				//JFrameTwo frame2 = new JFrameTwo();
-				LoginPage loginPage = new LoginPage();
 				// frame2. --> we no longer have access to the methods in 
 				// JFrameTwo class, meaning JFrameTwo is secured
+				LoginPage loginPage = new LoginPage();
+//				MainTrackerPage trackerPage = new MainTrackerPage();
+//				AccountInfo accountInfo = new AccountInfo();
+//				CreateAccount createAccount = new CreateAccount();
 				
 			}
 			
